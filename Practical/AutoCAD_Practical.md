@@ -197,13 +197,95 @@ ___________________________________________
 
 ### Task 3. - Modify
 
-#### Task 3.1. - 
+#### Task 3.1. - Erase
+There are two ways to modify: type full or short name in command line or select the icon (Home/Modify).
 
-#### Task 3.2. - 
+![image](./imgs/img_3.1_Erase_1.JPG)
 
-#### Task 3.3. - 
+Select the hatch and the spline and press “__Delete__” from you keyboard to erase them:
 
-#### Task 3.4. - 
+![image](./imgs/img_3.1_Erase_2.JPG)
+
+#### Task 3.2. - Mirror
+The command “__Mirror__” mirrors objects along a line that you define. (It will ask you whether you want to keep the original object or not after defining the mirror line. type “__y__” for yes or “__n__” for no). Select all the objects drawn so far and then type “__MI__” (which is the short command for “__Mirror__”).
+
+![image](./imgs/img_3.2_Mirror_1.JPG)
+
+Press “__Return__” and select the bottom-left corner of the rectangle:
+
+![image](./imgs/img_3.2_Mirror_2.JPG)
+
+Then select the bottom-right corner of the rectangle.
+
+![image](./imgs/img_3.2_Mirror_3.JPG)
+
+Press “__Return__” in order not to erase the source objects.
+
+Repeat the operation using the right sides of the hexagons as mirror axis:
+
+![image](./imgs/img_3.2_Mirror_4.JPG)
+
+![image](./imgs/img_3.2_Mirror_5.JPG)
+
+Repeat it once again, using as mirror axis the line that joins from the bottom-vertexes of the hexagons:
+
+![image](./imgs/img_3.2_Mirror_6.JPG)
+
+![image](./imgs/img_3.2_Mirror_7.JPG)
+
+![image](./imgs/img_3.2_Mirror_8.JPG)
+
+#### Task 3.3. - Copy
+This command copies the selected objects from one place to another. Select all the objects drawn so far, type “__CP__” and press “__Return__”.
+
+![image](./imgs/img_3.3_Copy_1.JPG)
+
+Select the bottom-left vertex of the triangle as a base point and click it:
+
+![image](./imgs/img_3.3_Copy_2.JPG)
+
+You will see a preview of where the copy will be drawn:
+
+![image](./imgs/img_3.3_Copy_3.JPG)
+
+Select the up-right vertex of the triangle of the original drawing as an endpoint and click it:
+
+![image](./imgs/img_3.3_Copy_4.JPG)
+
+You will still be able to copy your object wherever you want. To quit the command press “__Esc__”.
+
+![image](./imgs/img_3.3_Copy_5.JPG)
+
+Let's repeat the operation changing basepoint and end point. Select only the original drawing (don't select the copied part) and type “__CP__”:
+
+![image](./imgs/img_3.3_Copy_6.JPG)
+
+As a base point, select the up-left corner of the triangle of the original drawing and as end point the bottom-right corner of the triangle of the copied drawing:
+
+![image](./imgs/img_3.3_Copy_7.JPG)
+
+![image](./imgs/img_3.3_Copy_8.JPG)
+
+#### Task 3.4. - Trim
+Before using the “__Trim__” command, draw a square with sides of 0.5m and draw 4 circles with the 4 vertexes of the square as centres and the dimension of the side of the square as a radius:
+
+<img src="./imgs/img_3.4_Trim_1.JPG" alt="drawing" width="150"/> &rarr; <img src="./imgs/img_3.4_Trim_2.JPG" alt="drawing" width="200"/>
+
+Let’s now use the “__Trim__” command. Type “__TR__” and press “__Return__”.
+
+![image](./imgs/img_3.4_Trim_3.JPG)
+
+Now we are in the “__Trim__” command: first, you have to select the trim edges and then press “__Return__”. Select the up-right and the bottom-left circle.
+
+![image](./imgs/img_3.4_Trim_4.JPG)
+
+Press “__Return__”. Select now the object to trim: the up-left circle (remember to select the outer part of the circle).
+
+![image](./imgs/img_3.4_Trim_5.JPG)
+
+When you'll have finished, press “__Esc__” or “__Return__” to quit the command. Repeat the procedure for all the circles (pay attention to the trim edges):
+
+![image](./imgs/img_3.4_Trim_6.JPG)
 
 #### Task 3.5. - 
 
